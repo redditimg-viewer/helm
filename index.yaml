@@ -1,0 +1,84 @@
+apiVersion: v1
+entries:
+  redditimg-viewer:
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2023-04-01T21:45:50.861788+02:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.2.5
+    - name: dragonfly
+      repository: oci://ghcr.io/dragonflydb/dragonfly/helm
+      version: v1.0.0
+    description: A Helm chart for deploying RedditImg Viewer
+    digest: d1cc5477ccf9bf0404057013fae0992bdead9ac852ab4a76cf41e2ec0a4808fb
+    name: redditimg-viewer
+    urls:
+    - https://raw.githubusercontent.com/redditimg-viewer/redditimg-backend/main/deployment/helm/redditimg-viewer-0.64.5.tgz
+    version: 0.64.5
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2023-04-01T21:45:50.8576366+02:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.2.5
+    - name: dragonfly
+      repository: oci://ghcr.io/dragonflydb/dragonfly/helm
+      version: v1.0.0
+    description: A Helm chart for deploying RedditImg Viewer
+    digest: 585989da3e4021117d1954b3fabb23944a94d4eadd9e804d264704a55e3d14a6
+    name: redditimg-viewer
+    urls:
+    - https://raw.githubusercontent.com/redditimg-viewer/redditimg-backend/main/deployment/helm/redditimg-viewer-0.63.5.tgz
+    version: 0.63.5
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2023-04-01T21:45:50.8533549+02:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.2.5
+    - name: dragonfly
+      repository: oci://ghcr.io/dragonflydb/dragonfly/helm
+      version: v1.0.0
+    description: A Helm chart for deploying RedditImg Viewer
+    digest: 81b8fa8b4e5586dbf05b798bbb916b2e98fd3d12a3172f1b49e16b8e50d1b3f2
+    name: redditimg-viewer
+    urls:
+    - https://raw.githubusercontent.com/redditimg-viewer/redditimg-backend/main/deployment/helm/redditimg-viewer-0.62.5.tgz
+    version: 0.62.5
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2023-04-01T21:45:50.8476223+02:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.2.5
+    - name: dragonfly
+      repository: oci://ghcr.io/dragonflydb/dragonfly/helm
+      version: v1.0.0
+    description: A Helm chart for deploying RedditImg Viewer
+    digest: 279cffbacd082533d30fd2a0664931967ace6e4cf9d649ee9259241d4f79649a
+    name: redditimg-viewer
+    urls:
+    - https://raw.githubusercontent.com/redditimg-viewer/redditimg-backend/main/deployment/helm/redditimg-viewer-0.58.5.tgz
+    version: 0.58.5
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2023-04-01T21:45:50.8439816+02:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.2.5
+    - name: dragonfly
+      repository: oci://ghcr.io/dragonflydb/dragonfly/helm
+      version: v1.0.0
+    description: A Helm chart for deploying RedditImg Viewer
+    digest: 84361665e5b091eee643376a8239f288efbd5fed73daac16a885adc0a95c56e7
+    name: redditimg-viewer
+    urls:
+    - https://raw.githubusercontent.com/redditimg-viewer/redditimg-backend/main/deployment/helm/redditimg-viewer-0.57.5.tgz
+    version: 0.57.5
+generated: "2023-04-01T21:45:50.8391374+02:00"
