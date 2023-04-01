@@ -3,7 +3,23 @@ entries:
   redditimg-viewer:
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.0585524+02:00"
+    created: "2023-04-01T21:53:55.6009413+02:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.2.5
+    - name: dragonfly
+      repository: oci://ghcr.io/dragonflydb/dragonfly/helm
+      version: v1.0.0
+    description: A Helm chart for deploying RedditImg Viewer
+    digest: 53aa3b0b043883f439603a13293838bf2dbf94f7e3c252ed1c7b492c03c8e19a
+    name: redditimg-viewer
+    urls:
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.69.5.tgz
+    version: 0.69.5
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2023-04-01T21:53:55.5959201+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -15,11 +31,11 @@ entries:
     digest: c2d97fbf842085525723d24712351a1d65beb25bfe00ab36f9e53a2829766f5a
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.68.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.68.5.tgz
     version: 0.68.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.0530388+02:00"
+    created: "2023-04-01T21:53:55.590911+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -31,11 +47,11 @@ entries:
     digest: de315220e431b9ef7c7c6fb59f6b6d94e10593552a8b2ae4f944a8be5012ccd7
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.67.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.67.5.tgz
     version: 0.67.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.0485122+02:00"
+    created: "2023-04-01T21:53:55.5864026+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -47,11 +63,11 @@ entries:
     digest: 3ed960deda748d164bcfded1922acf1b0b3ab9ab5d259eb12537a52839f655e6
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.66.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.66.5.tgz
     version: 0.66.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.043488+02:00"
+    created: "2023-04-01T21:53:55.5804072+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -63,11 +79,11 @@ entries:
     digest: 050b878bac1ea0acf64d4443bc7a59e48c6dd48aa93eb66e9cdbdf87e0ac656e
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.65.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.65.5.tgz
     version: 0.65.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.0397718+02:00"
+    created: "2023-04-01T21:53:55.5758859+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -79,11 +95,11 @@ entries:
     digest: d1cc5477ccf9bf0404057013fae0992bdead9ac852ab4a76cf41e2ec0a4808fb
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.64.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.64.5.tgz
     version: 0.64.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.0345529+02:00"
+    created: "2023-04-01T21:53:55.5697209+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -95,11 +111,11 @@ entries:
     digest: 585989da3e4021117d1954b3fabb23944a94d4eadd9e804d264704a55e3d14a6
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.63.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.63.5.tgz
     version: 0.63.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.0303535+02:00"
+    created: "2023-04-01T21:53:55.5649362+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -111,11 +127,11 @@ entries:
     digest: 81b8fa8b4e5586dbf05b798bbb916b2e98fd3d12a3172f1b49e16b8e50d1b3f2
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.62.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.62.5.tgz
     version: 0.62.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.0245332+02:00"
+    created: "2023-04-01T21:53:55.558523+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -127,11 +143,11 @@ entries:
     digest: 279cffbacd082533d30fd2a0664931967ace6e4cf9d649ee9259241d4f79649a
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.58.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.58.5.tgz
     version: 0.58.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-01T21:48:48.0209061+02:00"
+    created: "2023-04-01T21:53:55.5548762+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -143,6 +159,6 @@ entries:
     digest: 84361665e5b091eee643376a8239f288efbd5fed73daac16a885adc0a95c56e7
     name: redditimg-viewer
     urls:
-    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/deployment/redditimg-viewer-0.57.5.tgz
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.57.5.tgz
     version: 0.57.5
-generated: "2023-04-01T21:48:48.0162565+02:00"
+generated: "2023-04-01T21:53:55.5501594+02:00"
