@@ -3,7 +3,26 @@ entries:
   redditimg-viewer:
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5806254+02:00"
+    created: "2023-04-04T22:06:16.0079108+02:00"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.2.5
+    - name: dragonfly
+      repository: oci://ghcr.io/dragonflydb/dragonfly/helm
+      version: v1.0.0
+    - name: redpanda
+      repository: https://charts.redpanda.com
+      version: 3.0.8
+    description: A Helm chart for deploying RedditImg Viewer
+    digest: a36ba843f73853063be8b56c00ed1acafec24031acc36dba89e978fd4e046491
+    name: redditimg-viewer
+    urls:
+    - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.77.5.tgz
+    version: 0.77.5
+  - apiVersion: v2
+    appVersion: 1.0.5
+    created: "2023-04-04T22:06:16.0011171+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -22,7 +41,7 @@ entries:
     version: 0.76.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.575087+02:00"
+    created: "2023-04-04T22:06:15.9950872+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -41,7 +60,7 @@ entries:
     version: 0.75.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5684572+02:00"
+    created: "2023-04-04T22:06:15.9875274+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -60,7 +79,7 @@ entries:
     version: 0.74.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5634172+02:00"
+    created: "2023-04-04T22:06:15.9818863+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -79,7 +98,7 @@ entries:
     version: 0.73.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5573361+02:00"
+    created: "2023-04-04T22:06:15.9766525+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -101,7 +120,7 @@ entries:
     version: 0.72.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5506916+02:00"
+    created: "2023-04-04T22:06:15.9687511+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -117,7 +136,7 @@ entries:
     version: 0.71.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5478846+02:00"
+    created: "2023-04-04T22:06:15.9657224+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -133,7 +152,7 @@ entries:
     version: 0.70.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.542352+02:00"
+    created: "2023-04-04T22:06:15.9616965+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -149,7 +168,7 @@ entries:
     version: 0.69.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5403528+02:00"
+    created: "2023-04-04T22:06:15.9586752+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -165,7 +184,7 @@ entries:
     version: 0.68.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5341885+02:00"
+    created: "2023-04-04T22:06:15.9542088+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -181,7 +200,7 @@ entries:
     version: 0.67.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5306838+02:00"
+    created: "2023-04-04T22:06:15.9499671+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -197,7 +216,7 @@ entries:
     version: 0.66.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5238317+02:00"
+    created: "2023-04-04T22:06:15.9447231+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -213,7 +232,7 @@ entries:
     version: 0.65.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5200893+02:00"
+    created: "2023-04-04T22:06:15.9409955+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -229,7 +248,7 @@ entries:
     version: 0.64.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5148405+02:00"
+    created: "2023-04-04T22:06:15.9351217+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -245,7 +264,7 @@ entries:
     version: 0.63.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5090759+02:00"
+    created: "2023-04-04T22:06:15.9299221+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -261,7 +280,7 @@ entries:
     version: 0.62.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.504848+02:00"
+    created: "2023-04-04T22:06:15.9257569+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -277,7 +296,7 @@ entries:
     version: 0.58.5
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-04-04T22:04:11.5017361+02:00"
+    created: "2023-04-04T22:06:15.9220353+02:00"
     dependencies:
     - name: postgresql
       repository: https://charts.bitnami.com/bitnami
@@ -291,4 +310,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/redditimg-viewer/helm/main/redditimg-viewer-0.57.5.tgz
     version: 0.57.5
-generated: "2023-04-04T22:04:11.4975757+02:00"
+generated: "2023-04-04T22:06:15.9183863+02:00"
